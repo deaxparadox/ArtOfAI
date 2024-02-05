@@ -1,0 +1,10 @@
+bs4
+matplotlib
+numpy
+pandas
+pytest
+requests
+seaborn
+selenium
+jupyter
+scipy
