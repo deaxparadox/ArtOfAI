@@ -14,3 +14,4 @@ openpyxl==3.1.2
 xlrd==2.0.1
 notebook==7.0.8
 py-openaq==1.1.0
+catboost==1.2.5
