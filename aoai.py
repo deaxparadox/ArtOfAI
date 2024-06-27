@@ -1,3 +1,5 @@
+from typing import Optional, Union, List
+
 import os
 import warnings
 from pathlib import Path
@@ -10,7 +12,7 @@ BASE_DIR = Path(__file__).parent
 DATASET_DIR = os.path.join(BASE_DIR, "dataset")
 DATASET_CLEAN_DIR = os.path.join(DATASET_DIR, "clean")
 
-class Base:
+class _Base:
     datasets = []
     
     def __init__(
@@ -62,7 +64,7 @@ class Find:
             
             
 
-class Dataset(Base):
+class Dataset(_Base):
     def refresh(self) -> None:
         """
         Refresh the datasets.
@@ -78,31 +80,45 @@ class Dataset(Base):
         return False
 
 
-    def list_all(self, name: str | list[str] = None) -> str:
+    def list(self, name: str | list[str] = None) -> None:
+        self.refresh()
         """
         Print the list all the datasets.
         """
+        
         if name:
+            
             if isinstance(name, str):
                 for v in self.datasets:
                     if self.__check_name(name, v):
                         print(v)
-            if isinstance(name, list):
-                # check all names
+                        
+                        
+            elif isinstance(name, list):
+                
+                # iterate through path,
+                # if path contains all the keywords
+                # print the path
                 for v in self.datasets:
                     if all([self.__check_name(n, v) for n in name]):
                         print(v)
         else:
+            
+            # if no `name` in provided then,
+            # print all the path
             for v in self.datasets:
                 print(v)
     
-    def get(self, name: str | list[str] = None) -> list[str]:
+    def get(self, name: str | List[str] = None) -> List[str]:
+        self.refresh()
         """
         Return the list all the datasets.
         """
         if not name:
             return self.datasets
         
+        
+        # paths to return
         d = []
         
         # if name is `str`
@@ -114,7 +130,7 @@ class Dataset(Base):
             
         # if name is list
         # return list of names
-        if isinstance(name, list):
+        elif isinstance(name, list):
             for v in self.datasets:
                 if all([self.__check_name(n, v) for n in name]):
                     d.append(v)

@@ -78,3 +78,12 @@ To overcome **overfitting, pruning** techniques are used. Pruning reduces the si
 - **Healthcare**: Assists in diagnosing diseases and suggesting treatment plans.
 - **Finance**: Helps in credit scoring and risk assessment.
 - **Marketting**: Used to segment customers and predict customer behavior.
+
+
+
+[Introduction to Decision Tree in machine learning >>>](101-decision-tree-in-ml.md)
+
+
+### Implementation
+
+- [Decision Tree implementation ssing Scikit-Learn](../../1000-other/decision-tree/101-decision-tree.ipynb)
