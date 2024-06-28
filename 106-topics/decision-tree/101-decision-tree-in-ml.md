@@ -47,7 +47,7 @@ We can represent any boolean function on discrete attributes using the decision 
 
 ![Decision Tree representation](../../assets/decision-tree-1.png)
 
-###### Beloww are some assumptions that we made while using the decsion tree:
+###### Below are some assumptions that we made while using the decsion tree:
 
 At the beginning, we consider the whole training set as the root:
 
@@ -62,3 +62,73 @@ As you can see from the above image the Decision Tree works on the Sum of Produc
 
 1. Information  Gain
 2. Gini Index
+
+
+#### 1. Information Gain
+
+When we use a node in a decision tree to partition the training instances into smaller subsets the entropy changes. **Information is a measure of this change in entropy**.
+
+- Suppose S is a set of instances.
+- A is an attribute
+- S<sub>v</sub> is the subset of S
+- *v* represents an individual value that the attribute *A* can take and Values (A) is the set of all possible values of A, then
+
+![Information Gain](../../assets/information-gain-formula-2.png)
+
+
+
+##### Entropy
+
+It is the measure of uncertainty of a random variables, it characterizes the impurity of an arbitrary collection of examples. The higher the entropy more the information content.
+
+Suppose S is a set of instances, A is an attribute, S<sub>v</sub> is the subset of S with A = v, and Values (A) is the set of all possible values of A, them
+
+![Entropy](../../assets/entropy-formula-2.png)
+
+
+Example:
+
+```
+For the set X = {a,a,a,b,b,b,b,b}
+Total instances: 8
+Instances of b: 5
+Instances of a: 3
+```
+
+![Entropy](../../assets/entropy-formula-3.png)
+
+
+#### Building Decision Tree using Information Gain The essentials
+
+- Start with all training instances associated with the root node
+- Use info gain to choose which attribute to label each node with
+- *Note*: No root-to-leaf path should contain the same discrete attribute twice.
+- Recusively construct each subtree on the subset of training instances that would classfied down the path in the tree.
+- If all positive or all negative training instances remain, the label that node "yes" or "no" accordingly.
+- If no attributes remain, label with a majority vote of training instances left at that node.
+- If no instances remain, label with a majority vote of the parent's training instances.
+
+**Example**: Now, let us draw a Decision Tree for the following data using Information gain. **Training set: 3 features and 2 classes**
+
+![Decision Tree for the following information gain](../../assets/decision-tree-for-information-gain.png)
+
+Here, we have 3 features and 2 output classes. To build a decision tree using Information gain. We will each of the features and calculate the information for each feature.
+
+
+Split on feature X
+
+![Decision Tree](../../assets/decision-tree-4.png)
+
+
+Split on features Y
+
+![Split on feature X](../../assets/decision-tree-5.png)
+
+
+Split on feature Z
+
+![Split on feature Z](../../assets/decision-tree-6.png)
+
+From the above images, we can see that the information gain is maximum when we make a split on feature Y. So, for the root node best-suited feature is feature Y. Now we can see that while splitting the dataset by feature Y, the child contains a pure subset of the target variable. So we don't need to further split the dataset. The inal tree for the above dataset would look like this:
+
+![Final tree](../../assets/decision-tree-7.png)
