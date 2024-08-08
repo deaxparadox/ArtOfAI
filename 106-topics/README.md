@@ -10,4 +10,7 @@ Training a Model
 
 Model Representation and Interpretability
 
+- [Genralization](generalization.md)
+- [Overfitting](overfitting.md)
 - [Underfitting](underfitting.md)
+- [Bias-Variance Trade-Off](bias-variance-trade-off.md)
