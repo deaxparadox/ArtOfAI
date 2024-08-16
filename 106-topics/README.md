@@ -14,3 +14,6 @@ Model Representation and Interpretability
 - [Overfitting](overfitting.md)
 - [Underfitting](underfitting.md)
 - [Bias-Variance Trade-Off](bias-variance-trade-off.md)
+
+
+- [Regression Analysis](regression-analysis/README.md)
