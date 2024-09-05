@@ -31,34 +31,6 @@ Accuracy is used to measur the performance of the model. It is the ratio of Tota
 Model accuracy = (TP + TN) / (TP + FP + FN + FN)
 
 
-#### Precision
-
-Presion is a measure of how accurate a model's positive predictions are. It is defined as the ratio of true positive predictions to the total number of positive predictions made by the model.
-
-Precision = TP / (TP + FP)
-
-
-#### Recall
- 
-Recall measures the effectiveness of a classification model identifying all relevant instances from a dataset. It is the ratio of the number of true position (TP) instances to the sum of true positive and false negative (FN) instances.
-
-Recall = TP / (TP + FN)
-
-
-#### F1-Score
-
-F1-score is used to evaluate the overall performance of a classification model. It is the harmonic mean of precision and recall.
-
-F1-Score = 2 * Precision * Recal / (Presion = Recall)
-
-We balance precision and recall with the F1-score when a trade-off between minimizing false positives and false negatives is necessary, usch as in information retrieval systems.
-
-
-#### Specificity
-
-Specificity is another important metric in the evaluation of classification models, particularly in binary classification. It measures the ability of a model to correctly identify negative instances. Specificity is also known as the True Negative Rate.
-
-Specificity = TN / (TN + FP)
 
 #### Error rate
 
@@ -67,7 +39,58 @@ Error rate = (FP + FN) / (TP + FP + FN + TN)
 
 #### Kappa Value (k)
 
+**Kappa** value of a model indicates the adjusted model accuracy. It is calculated using the following formula:
+
 k  = (P(a) - P(p<sub>r</sub>)) / (1 - P(p<sub>r</sub>))
+
+*Kappa vlue can be 1 at the maximum, which represents perfect agreement between model's preduction and acutal values.*
+
+
+
+
+#### Sensitivity
+
+The **senstivity** of a model measures the proportion of TP examples or positive cases which were correctly classified. It is measured as
+
+![Confusion matrix sensitivity](images/confusion-matrix-senstivity.png)
+
+
+
+#### Specificity
+
+Specificity is another important metric in the evaluation of classification models, particularly in binary classification. It measures the ability of a model to correctly identify negative instances. Specificity is also known as the True Negative Rate.
+
+Specificity = TN / (TN + FP)
+
+A higher value of specificity will indicate a better model performance.
+
+
+#### Precision
+
+Presion is a measure of how accurate a model's positive predictions are. It is defined as the ratio of true positive predictions to the total number of positive predictions made by the model.
+
+Precision = TP / (TP + FP)
+
+Precision indicatest the reliability of a model in predicting a class of interest.
+
+
+#### Recall
+ 
+Recall measures the effectiveness of a classification model identifying all relevant instances from a dataset. It is the ratio of the number of true position (TP) instances to the sum of true positive and false negative (FN) instances.
+
+Recall = TP / (TP + FN)
+
+Recall indicates the proportion of correct prediction to positives to the total number of positives.
+
+
+#### F1-Score (**F-measures**)
+
+F1-score is used to evaluate the overall performance of a classification model. It is the harmonic mean of precision and recall.
+
+F1-Score = (2 * Precision * Recall) / (Precision + Recall)
+
+We balance precision and recall with the F1-score when a trade-off between minimizing false positives and false negatives is necessary, usch as in information retrieval systems.
+
 
 
 #### Type 1 and Type 2 error

@@ -17,3 +17,10 @@ Model Representation and Interpretability
 
 
 - [Regression Analysis](regression-analysis/README.md)
+
+
+Evaluating Performance of a Model
+- Supervised learning - Classification
+    - [Confusion Matrix](confusion-matrix.md)
+- [Supervised learning - Regression](https://)
+- [Unsupervised learning - Clustering](https://)
