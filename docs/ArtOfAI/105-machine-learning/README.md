@@ -12,3 +12,18 @@ UK Berkeley breaks out the learning system of a machine learning algorithm into 
 
 3 A **Model Optimization Process**: If the model can fit better to the data points in the training set, then weights are adjusted to reduce the descrepancy between the known example and the model estimate. The algorithm  will repeat this iterative "evaluate and optimize" process, updating weights autonomously until a threshold of accuracy has been met.
 
+
+### Type of Machine learning
+
+- [Supervised machine learing](101-supervised-learning/README.md)
+- [Unsupervised machine learning](102-unsupervised-learning/README.md)
+- [Semi-supervised machine learning](103-semi-supervised-machine-learning/README.md)
+- [Reinforcement machine learning](104-reinforcement-machine-learning/README.md)
+
+
+- [Classification](https://)
+- [Regression](https://)
+- [Clustering](https://)
+- [Dimensionality Reduction](https://)
+- [Model Selection](https://)
+- [Preprocessing](https://)
