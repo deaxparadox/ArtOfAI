@@ -2,16 +2,22 @@
 
 Here's a complete list of the metacharacters;
 
-- `.`
-- `^`
 - `$`
-- `*`
-- `+`
-- `?`
-- `{`
-- `}`
+
+### Repeating things
+    - `*`
+    - `+`
+    - `?`
+    - `{`
+    - `}`
+
+### Specifying Character class
+
 - [`[]`](#square-brackets)
+- `^`
+- `.`
 - `\`
+
 - `|`
 - `(`
 - `)`
@@ -26,6 +32,8 @@ It matches anything except a newline character, and there's an alternate mode (`
 - You can match the characters not listed within the class by *complementing* the set. This is indicated by including a `'^'` as the first character of the class. For example `[^5]` will match any character except `'5'`. If the caret appears elsewhere isn a character class, it does not have special meaning. For example: `[5^]` will match either a `'5'` or a `'^'`.
 
 ### Dollar
+
+
 ### Star
 
 - `'*'` specifies character can be matched zero or more times, instead of exactly once.
@@ -68,6 +76,12 @@ It matches anything except a newline character, and there's an alternate mode (`
 
 View all the predefined character sets [here](predefined-character-set.md)
 
-### `|`
+### `|` "or" operation
+
+Alternation, or the "or" operation. IF *A* and *B* are regular expressions. `A | B` will match any string that matches either *A* or *B*. `|` has very low precendence in order to make it work resonably when you're alternating multi-character strings. `Crow|Servo` will match either `'Crow'` or `'Servo'`, not `'Cro'`, a `'w'`, or an `'S'`, and `'servo'`.
+
+Ot match a literal `'|'`, use `\|`, or enclose it inside a character class, as in `[|]`.
+
+
 ### `(`
 ### `)`
