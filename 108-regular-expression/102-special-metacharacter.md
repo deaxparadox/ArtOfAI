@@ -31,7 +31,39 @@ It matches anything except a newline character, and there's an alternate mode (`
 
 - You can match the characters not listed within the class by *complementing* the set. This is indicated by including a `'^'` as the first character of the class. For example `[^5]` will match any character except `'5'`. If the caret appears elsewhere isn a character class, it does not have special meaning. For example: `[5^]` will match either a `'5'` or a `'^'`.
 
+
+For example, if you wish to match the word `From` only at the begining of a line, th RE to use is `^From`.
+
+```py
+>>> print(re.search('^From', 'From Here to Eternity'))  
+<re.Match object; span=(0, 4), match='From'>
+>>>
+>>> print(re.search('^From', 'Reciting From Memory'))
+None
+>>>
+```
+
+To match a literal `'^'`, use `\^`.
+
+
 ### Dollar
+
+Matches at the end of the line, which is defined as either the end of the string, or any location followed by a newline character.
+
+```py
+>>>
+>>> print(re.search('}$', '{block}'))    
+<re.Match object; span=(6, 7), match='}'>
+>>>
+>>> print(re.search('}$', '{block} '))
+None
+>>>
+>>> print(re.search('}$', '{block}\n'))  
+<re.Match object; span=(6, 7), match='}'>
+>>>
+```
+
+- To match a literal `'$'`, use `\$` or enclose it inside a character class, as in `[$]`.
 
 
 ### Star
@@ -83,5 +115,14 @@ Alternation, or the "or" operation. IF *A* and *B* are regular expressions. `A |
 Ot match a literal `'|'`, use `\|`, or enclose it inside a character class, as in `[|]`.
 
 
-### `(`
-### `)`
+### `(` `)` "group" parentheses
+
+Groups are marked by the `(`, `)` metacharacters. `(` and `)` have muc the same meaning as they do in mathemtical expressions; they group together the expressions contained inside them, and you can repeat the contents of a gruop with a quantifier , such as `*`, `+`, `?`, or `{m, n}`. For example, `(ab)*` will match zero or more repetitions of `ab`.
+
+```py
+>>>
+>>> p = re.compile('(ab)*')
+>>> print(p.match('ababababab').span())  
+(0, 10)
+>>>
+```
