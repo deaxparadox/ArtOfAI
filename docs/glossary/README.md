@@ -10,3 +10,4 @@
 - [Wordform](wordform.md)
 - [Tokenization](https://)
 - [Case folding](case-folding.md)
+- [Sparse dataset](sparse-dataset.md)

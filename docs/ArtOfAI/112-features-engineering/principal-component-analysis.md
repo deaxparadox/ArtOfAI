@@ -40,3 +40,12 @@ To make the transformation in such a way that:
 1. The new features are distinct, i.e. the covariance between the new features, i.e. the principal components is 0.
 2. The principal components are generated in order of the variabitlity in the data that it captures. Hence, the first principal component should capture the maximum variability, the second principal component should capture the next highest variability etc.
 3. The sum of variance of the new features or the principal components should be equal to the sum of variance of the original features.
+
+
+PCA works based on a proces called eigenvalue decomposition of a covariance matrix of a data set. Below are the steps to be followed:
+
+1. First, calculate the covariance matrix of a data set.
+2. Then, calculate the eigenvalues of the covariance matrix.
+3. The eigenvector having highest eigenvalue represents the direction in which there is the highest variance. So this will help in identifying the first principal component.
+4. The eigenvector having the next highest eigenvalue represents the driection in which data has the highest remainning variance and also orthogonal to the first direction. So this helps in idetifying the second principal component.
+5. Like this, identify the top '*k*' eigenvectors having top '*k*' eigenvalues so as to get the '*k*' principal components.
