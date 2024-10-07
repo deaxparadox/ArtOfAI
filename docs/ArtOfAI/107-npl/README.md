@@ -14,8 +14,8 @@ Processing natural language to extract useful information can be difficult. It r
 - [ELIZA](101-eliza.md)
 - [Text Normalization](102-text-normalization.md)
 - [Topic Modeling](103-topic-modeling.md)
-
 - [TF-IDF](/106-topics/tf-idf.md)
+- [Tokenization](tokenization.md)
 
 
 ### NLP Use cases
@@ -28,5 +28,8 @@ Processing natural language to extract useful information can be difficult. It r
 - Used in Virutal assitants.
 - Used in customer service websites.
 
-### [Glossary](glossary/README.md)
+
+
+
+### [Glossary](/docs/glossary/README.md)
 

@@ -6,3 +6,7 @@
 - [Word instances](104-word-instances.md)
 - [Herdaw's law (or (Heaps' law))](105-herdaw-law.md)
 - [Semantic analysis](106-sementic-analysis.md)
+- [Lemma](lemma.md)
+- [Wordform](wordform.md)
+- [Tokenization](https://)
+- [Case folding](case-folding.md)
