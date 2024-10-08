@@ -16,6 +16,8 @@ Processing natural language to extract useful information can be difficult. It r
 - [Topic Modeling](103-topic-modeling.md)
 - [TF-IDF](/106-topics/tf-idf.md)
 - [Tokenization](tokenization.md)
+- [Stemming](Stemming)
+- [Lemmatization](Lemmatization)
 
 
 ### NLP Use cases
@@ -29,7 +31,7 @@ Processing natural language to extract useful information can be difficult. It r
 - Used in customer service websites.
 
 
-
+### [Terminlogies](terminologies.md)
 
 ### [Glossary](/docs/glossary/README.md)
 
