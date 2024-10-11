@@ -27,3 +27,11 @@ UK Berkeley breaks out the learning system of a machine learning algorithm into 
 - [Dimensionality Reduction](https://)
 - [Model Selection](https://)
 - [Preprocessing](https://)
+
+
+
+### Learn
+
+
+- Prepare to models
+    - [text](https://)

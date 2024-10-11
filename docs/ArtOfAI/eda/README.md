@@ -1,10 +1,9 @@
 # Exploratory Data Analysis
 
-#### Exploratory data analysis (EDA) is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods. EDA is also important for build machine learning models and pipelines.
+#### Exploratory Data Analysis refers to the critical process of performing initial investigations on data so as to discover patterns,to spot anomalies,to test hypothesis and to check assumptions with the help of summary statistics and graphical representations.
 
-EDA helps determine how best to manipulate data sources to get the answers you need, making it easier for data scientists to discover patterns, spot anomalies, test a hypotheses, or check assumptions.
 
-EDA is primary used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a better understanding of data set variables nad relationships between them. It can also help determine if the statistical techniques you are considering for data analysis are appropriate. **EDA technique is widely used method in the data discovery process**.
+EDA is primary used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a better understanding of data set variables and relationships between them. It can also help determine if the statistical techniques you are considering for data analysis are appropriate. **EDA technique is widely used method in the data discovery process**.
 
 
 ### Why is EDA important?
@@ -13,17 +12,21 @@ The main purpose of EDA is to help look at data before making assumptions. It ca
 
 Data scientists can use exploratory analysis to ensure the results they produce are valid and applicable to any desired business outcomes and goals. EDA also helps stakeholders by confirming they are asking the right questions. EDA can help answer questions about standard deviations, categorical variables, and confidence intervals.
 
-### Exploratory data analysis tools
+### Key aspects of EDA 
 
-Specific statistical functions and techniques you can perform with EDA tools include:
+- **Distribution of data**: Examing the distribution of data points to understand their range, central trendencies (men, median), and dispersion (variance, standard deviation).
+- **Grpahical Representation**: Utilizing charts such as histograms, box plots, scatter plots, and bar charts to visualize relationships within the data and distributions of variables.
+- **Outlier detection**: Identifying unusual values that deviate from other data points. Outliers can influence statistical analyses and might indicate data entry erros or unique cases.
+- **Correlation Analysis**: Checking the relationship between variables to understand how they might affect each other. This include computing correlation coefficients and creating correlation matrices.
+- **Handling missing values**: Detecting and deciding how to address missing data points, whether by imputation or removal, depending on their impect and the amount of missing data.
+- **Summary statistics**: Calculating key statistics that provide insight into data trends and nuances.
+- **Testing assumptions**: Many statistical tests and models assume the data meet certain conditions (like normality or homoscedasticity). EDA helps verify these assumptions.
 
-- Clustering and dimension reduction techniques, which help create grahpical display of high-dimensional data containing many variables.
-- Univariate visualization of each field in the row dataset, with summary statistics.
-- Bivariate visualizations and summary statistics that allow you to assess the relationship between each variable each variable in the dataset and the target variable you're looking at.
-- Multivariate visualizations, for mapping and understanding interactions between different fields in the data.
-- K-means Clustering is the clustering method in unsupervised learing where data points are assigned into K groups, i.e. the number of clusters, based on the distance from each group's centroid. The data points closest to a particular centroid will be clusterd under the same category. K-means Clustering is commonly used in [market segmentation](/docs/glossary/107-market-segmentation.md), [pattern recognition](/docs/glossary/108-pattern-recognition.md), and [image compression](/docs/glossary/109-image-compression.md).
-- Predictive models, such as linear regression, use statistics and data to predict outcomes.
+### Why eda is important?
 
+EDA is important for several reasons, especially in the context of data science and statistical modeling.
+
+1. **Understanding data**: EDA helps in gettting familiar with the dataset, understanding the number of features, the type of data in each features, and the distribution of data points. This understanding is crucial for selecting appropriate analysis or prediction techniques.
 
 ### Types of exploratory data analysis
 
@@ -60,10 +63,11 @@ There are four primary types of EDA:
         - Duplicate oberservations.
 
     **We need to have deep understanding of our data to handle it efficiently in future machine learning tasks**.
+
 2. Feature assessment and visualization
     - Univariate Analysis: Depeding on data we may need to perform
         - Standardize numerical data
         - One-hot encoding
         - Shifted or skewed
     - Multivariate Analysis
-3. Data quality and evaluation
+3. Data quality evaluation
