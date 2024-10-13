@@ -58,4 +58,4 @@ TF-IDF = 0.2 * 1 = 0.2
 
 ### Implementation
 
-[Ipynb file](ipynb/tfidf.ipynb)
+[Ipynb file](/code/ipynb/tfidf.ipynb)

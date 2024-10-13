@@ -1,10 +1,7 @@
 # Artifical Intelligence
 
-----------
+### Table of content
 
-#### Table of content
-
-Common topics
 - [Terminologies](#basics-terminologies)
 - [Data collection](#data-collection)
 - [Data pre-processing](#data-pre-processing)
@@ -16,6 +13,8 @@ Common topics
 - [Neural networks](https://)
 - [Deep learning](#deep-learning)
 - [Natural language processing](#natural-language-processing)
+- [Libraries and Frameworks](#libraries-and-frameworks)
+    - [text](#natural-language-processing-1)
 
 ----------
 
@@ -24,11 +23,6 @@ Common topics
 
 In this step data is collected from various sources, from companies, by extracting web pages, from internet (download datasets), etc.
 
-- For scraping the webpages, following tools are used in python
-    - [requests](https://): library for download the content of the website.
-    - [BeautfulSoup](https://): It library is used for parsing the content of the web pages.
-    - [Selenium](https://): Framework for performing, extraction (optional), web automation and testing.
-    - [Scrapy](https://): Framework for web scraping.
 
 ### Basics Terminologies:
 - [Features](/docs/glossary/features.md)
@@ -40,18 +34,6 @@ Data pre-processing is important step of machine learning where data is thorough
 
 - [Exploratory data analysis](/docs/ArtOfAI/eda/README.md)
 - [Feature enginneering](/docs/ArtOfAI/features-engineering/README.md)
-
-##### Data pre-processing libraries
-
-Following are the libraries used for data preprocesing:
-
-- [Numpy](https://)
-- [Pandas](https://)
-- Visualization
-    - [Matplotlib](https://)
-    - [Seaborn](https://)
-    - [Folium](https://)
-    - [Plotly](https://)
 
 
 ### Preparing to models
@@ -65,19 +47,9 @@ Machine learing is the branch of AI in which models is trained of the given, tha
 ##### Type of machine learning
 
 - [Supervised machine learning](/docs/ArtOfAI/supervised-learning/README.md)
-- [Unsuperused machine learning](https://)
+- [Unsuperused machine learning](/docs/ArtOfAI/unsupervised-learning/README.md)
 - [Semi-supervised machine learning](https://)
 - [Reinforcement learning](https://)
-
-
-##### Python libraries of Modeling:
-
-- [Scikit-learn](https://)
-- [XGboost](https://)
-- [Catboost](https://)
-- [Tensorflow](https://)
-- [Pytorch](https://)
-
 
 
 ### Neural Networks
@@ -89,6 +61,47 @@ A neural network is a machine learning program, or model, that makes decisions i
 ### Natural language processing
 
 - [Introduction](/docs/ArtOfAI/npl/README.md)
-- Python libraries of NLP
-    - [NLTK (Natural language took kit)](https://)
-    - [SpaCy](https://)
+- [Stemming](/docs/ArtOfAI/npl/stemming.md)
+- [Lemmetizaton](/docs/ArtOfAI/npl/lemmatization.md)
+- [Text normalization](/docs/ArtOfAI/npl/102-text-normalization.md)
+- [TF-IDF](/docs/ArtOfAI/npl/tf-idf.md)
+
+
+
+# Libraries and Frameworks
+
+Following are the categorised list of libraries which used in the different fields of Artificial intelligence. There are some many libraries and frameworks which belong to one domain but also used others, such tensorflow and pytorch is used in broad range of domains in AI. It is used in building simple ML models, neural networks, deep learning, etc. 
+
+###### Data pre-processing libraries
+
+- [Numpy](https://)
+- [Pandas](https://)
+- Visualization
+    - [Matplotlib](https://)
+    - [Seaborn](https://)
+    - [Folium](https://)
+    - [Plotly](https://)
+
+
+###### Machine learning modeling
+- [Scikit-learn](https://)
+- [XGboost](https://)
+- [Catboost](https://)
+- [Pytorch](https://)
+- [Tensorflow](https://www.tensorflow.org/): Building machine learning models.
+
+###### Neural networks
+- [JAX](https://jax.readthedocs.io/en/latest/index.html): High performance array computing
+- [FAX](https://flax.readthedocs.io/en/latest/): Neural Networks for JAX
+
+###### Deep learning
+- [Keras](https://keras.io): Deep learning frameworks
+
+
+###### Natural language processing
+
+- [NLTK (Natural language took kit)](www.nltk.org/)
+- [SpaCy](https://spacy.io/)
+
+
+###### Computer Vision

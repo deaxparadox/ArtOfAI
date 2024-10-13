@@ -12,7 +12,7 @@ A natural language processing system is often referred to as a *pipeline* becaus
 Processing natural language to extract useful information can be difficult. It requires tedious statistical bookkeeping.
 
 - [ELIZA](101-eliza.md)
-- [Text Normalization](102-text-normalization.md)
+- [Text Normalization](text-normalization.md)
 - [Topic Modeling](103-topic-modeling.md)
 - [TF-IDF](/106-topics/tf-idf.md)
 - [Tokenization](tokenization.md)
