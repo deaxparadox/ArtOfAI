@@ -6,12 +6,13 @@
 - [How supervised learning works](#how-supervised-learning-works)
 - [Supervised learning algorithm](#supervised-learning-algorithms)
     - [Neural networks](#neural-networks)
+- [Algorithms in supervised learning](#algorithms-in-supervised-learning)
 
 ### What is Supervised learning
 
 Supervised leraning, also known as supervised machine liearning, is a subcategory of machine learning and artificial intelligence. It is defined by its use of labeled data sets to train algorithms that to classify data or predict outcomes accurately.
 
-As input data is fed into the model, it adjusts it weights until the model has been fitted appropriately, hwihc occurs as part of the cross validation process. 
+As input data is fed into the model, it adjusts it weights until the model has been fitted appropriately, which occurs as part of the cross validation process. 
 
 Supervised learning helps organization solve for a variety of real-world problems at scale, such as classifying spam in a seprate folder from your inbox. It can be used to build highly accurate machine learning models.
 
@@ -21,9 +22,12 @@ Supervised learning uses a training set to teach models to yield the disired out
 
 Supervised leraning can be separated into two types of problems when [data mining](https://) -- classification and regression:
 
-1. Classification
+1. [Classification](#classification)
+2. [Regression](#regression)
 
-Uses an algirhtmto accurately assign test data into specific categories. it recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled or defined.
+##### Classification
+
+Uses an algirhtm to accurately assign test data into specific categories. It recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled or defined.
 
 Common classification algorithms:
 
@@ -33,7 +37,7 @@ Common classification algorithms:
 - [K-nearest neighbor](https://)
 - [Random forest](https://)
 
-2. Regression
+##### Regression
 
 It is used to understand the relationship between dependent and independent variables. It is commonly used to make projections, such as for sales revenue for a given business.
 
@@ -122,3 +126,22 @@ Supervised learning models can be used to build and advance a number of business
 - Training supervised learning models can be very time intensive.
 - Datasets can have a higher likelihood of human error, resulting in algorithms learning incorrectly.
 - Unlike unsupervised learning models, supervised learning cannot cluster or classify data on its own.
+
+
+### Algorithms in supervised learning
+
+In this section we are going to see all the algorithm we used in the supervised machine learning. Starting with regresion algorithms, using for prediction.
+
+##### Regression algorithms
+
+Regression algorithm are also known are prediction algorithms because the are used to predict numerical values based on the given dataset.
+
+
+- [Linear regression](linear-regression.md)
+- [Ridge regression](ridge-regression.md)
+
+##### Classifiction algorithms
+
+Classification algorithms are used for classification an object in category. If we have collections of movie, and we want to classify each movie according to it description. We can use classification model for this case.
+
+- [Logistic regression](logistic-regression.md)

@@ -1,4 +1,4 @@
-# Artifical Intelligence
+# ArtOfAI
 
 ### Table of content
 
@@ -43,7 +43,7 @@ This stage consist various steps we need to take before we starting build our mo
 
 ### Machine Learning
 
-Machine learing is the branch of AI in which models is trained of the given, that model is used for prediction, classifcation etc.
+Machine learing is the branch of AI in which models is trained of the given, that model is used for prediction, classifcation etc. 
 
 ##### Type of machine learning
 
@@ -51,6 +51,9 @@ Machine learing is the branch of AI in which models is trained of the given, tha
 - [Unsuperused machine learning](/docs/ArtOfAI/unsupervised-learning/README.md)
 - [Semi-supervised machine learning](https://)
 - [Reinforcement learning](https://)
+
+To learn more about machine learning [click here ➛](/docs/ArtOfAI/machine-learning/README.md)
+
 
 
 ### Neural Networks

@@ -27,6 +27,9 @@ Data scientists can use exploratory analysis to ensure the results they produce 
 EDA is important for several reasons, especially in the context of data science and statistical modeling.
 
 1. **Understanding data**: EDA helps in gettting familiar with the dataset, understanding the number of features, the type of data in each features, and the distribution of data points. This understanding is crucial for selecting appropriate analysis or prediction techniques.
+2. **Identifying patterns and relationship**: Through visualizations and statistical summaries, EDA can reveal hidden patterns and intrinsic relationships between variables. These insights can guide further analysis and enable more effective feeature engineering and model building.
+3. **Detecting Anomalies and Outliers**: EDA is essential for identify erros or unusual data points that may adversely affect the resutls of your analysis. Detecting these early can prevent costly mistakes in predictive modeling and analysis.
+4. **Testing assumptions**: Many statistical models assume that data follow a certain distribution or that variables are independent.
 
 ### Types of exploratory data analysis
 
