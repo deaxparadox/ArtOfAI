@@ -5,16 +5,17 @@
 - [Terminologies](#basics-terminologies)
 - [Data collection](#data-collection)
 - [Data pre-processing](#data-pre-processing)
-    - [Libraries](#data-pre-processing-libraries)
 - [Prepare to models](#preparing-to-models)
 - [Machine learning](#machine-learning)
     - [Types of machine learning](#type-of-machine-learning)
-    - [Modeling tools](#python-libraries-of-modeling)
 - [Neural networks](https://)
 - [Deep learning](#deep-learning)
 - [Natural language processing](#natural-language-processing)
+- [Computer vision](#computer-vision)
+- [Generative AI](#generative-ai)
 - [Libraries and Frameworks](#libraries-and-frameworks)
-    - [text](#natural-language-processing-1)
+    - [Computer vision](#computer-vision-1)
+    - [NLP](#natural-language-processing-1)
 
 ----------
 
@@ -38,7 +39,7 @@ Data pre-processing is important step of machine learning where data is thorough
 
 ### Preparing to models
 
-
+This stage consist various steps we need to take before we starting build our models, to do the specific tasks.
 
 ### Machine Learning
 
@@ -58,15 +59,32 @@ A neural network is a machine learning program, or model, that makes decisions i
 
 ### Deep learning
 
+Deep learning is a subset of machine learning methods based on neural networks with representation learning. It uses multilayered neural networks, called deep neural networks, to stimulate the complex decision-making power of the human brain.
+
+- [Difference between DL and ML](/docs/ArtOfAI/deep-learning/difference-dl-and-ml.md)
+- [Deep learing algorithms](/docs/ArtOfAI/deep-learning/dl-algorithms.md)
+    - [CNN](/docs/ArtOfAI/deep-learning/cnn.md)
+    - [RNN](/docs/ArtOfAI/deep-learning/rnn.md)
+    - [Variational autoencoders](/docs/ArtOfAI/deep-learning/variational-autoencoders.md)
+
 ### Natural language processing
 
 - [Introduction](/docs/ArtOfAI/npl/README.md)
 - [Stemming](/docs/ArtOfAI/npl/stemming.md)
 - [Lemmetizaton](/docs/ArtOfAI/npl/lemmatization.md)
-- [Text normalization](/docs/ArtOfAI/npl/102-text-normalization.md)
+- [Text normalization](/docs/ArtOfAI/npl/text-normalization.md)
+- [Language models](https://)
+- [Large language models](https://)
 - [TF-IDF](/docs/ArtOfAI/npl/tf-idf.md)
 
 
+### Computer vision
+
+Computer vision is a field of artificial intelligence (AI) that uses machine learning and neural networks to teach computers and systems to derive meaningful information from digital images, videos and other visual inputs—and to make recommendations or take actions when they see defects or issues.
+
+### Generative AI
+
+Generative AI, sometimes called gen AI, is artificial intelligence (AI) that can create original content—such as text, images, video, audio or software code—in response to a user’s prompt or request.
 
 # Libraries and Frameworks
 
@@ -104,4 +122,6 @@ Following are the categorised list of libraries which used in the different fiel
 - [SpaCy](https://spacy.io/)
 
 
-###### Computer Vision
+###### Computer 
+
+- [OpenCV](https://)
