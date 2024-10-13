@@ -13,6 +13,7 @@
 - [Natural language processing](#natural-language-processing)
 - [Computer vision](#computer-vision)
 - [Generative AI](#generative-ai)
+- [MLOps](mlops)
 - [Libraries and Frameworks](#libraries-and-frameworks)
     - [Computer vision](#computer-vision-1)
     - [NLP](#natural-language-processing-1)
@@ -88,6 +89,12 @@ Computer vision is a field of artificial intelligence (AI) that uses machine lea
 ### Generative AI
 
 Generative AI, sometimes called gen AI, is artificial intelligence (AI) that can create original content—such as text, images, video, audio or software code—in response to a user’s prompt or request.
+
+### MLOps
+
+MLOps is emerging branch which combined the ML, AI and DevOps, simplyfing the models development and deployment process.
+
+To know more about MLOps [click here ➛](/docs/ArtOfAI/mlops/README.md)
 
 # Libraries and Frameworks
 
