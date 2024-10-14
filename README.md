@@ -117,10 +117,12 @@ Following are the categorised list of libraries which used in the different fiel
 
 ###### Machine learning modeling
 - [Scikit-learn](https://)
+- [LightGBM](https://lightgbm.readthedocs.io/en/latest/index.html): graident boosting framework, uses tree based learning agorithms.
 - [XGboost](https://)
 - [Catboost](https://)
 - [Pytorch](https://)
 - [Tensorflow](https://www.tensorflow.org/): Building machine learning models.
+- [Optuna](https://optuna.org/): Open source hyperparameter optimization framework to automate hyperparameter search.
 
 ###### Neural networks
 - [JAX](https://jax.readthedocs.io/en/latest/index.html): High performance array computing
