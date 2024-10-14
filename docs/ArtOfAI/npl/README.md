@@ -7,17 +7,22 @@
 A natural language processing system is often referred to as a *pipeline* because it usually involves several stages of processing where natural language flows in one end and the the processed output flows out the other.
 
 
-### The *math*
+### NLP Core concepts
 
 Processing natural language to extract useful information can be difficult. It requires tedious statistical bookkeeping.
 
 - [ELIZA](101-eliza.md)
-- [Text Normalization](text-normalization.md)
+
+- [Introduction](/docs/ArtOfAI/npl/README.md)
+- [Stemming](stemming.md)
+- [Lemmetizaton](lemmatization.md)
+- [Text normalization](text-normalization.md)
+- [N-gram language models](n-gram-language-models.md)
+- [Language models](https://)
+- [Large language models](https://)
+- [TF-IDF](/docs/ArtOfAI/npl/tf-idf.md)
 - [Topic Modeling](103-topic-modeling.md)
-- [TF-IDF](/106-topics/tf-idf.md)
-- [Tokenization](tokenization.md)
-- [Stemming](Stemming)
-- [Lemmatization](Lemmatization)
+
 
 
 ### NLP Use cases

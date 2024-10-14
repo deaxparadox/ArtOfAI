@@ -13,8 +13,10 @@
 - [Natural language processing](#natural-language-processing)
 - [Computer vision](#computer-vision)
 - [Generative AI](#generative-ai)
-- [MLOps](mlops)
+- [MLOps](#mlops)
 - [Libraries and Frameworks](#libraries-and-frameworks)
+    - [Data pre-processing libraries](#data-pre-processing-libraries)
+    - [Machine learning modeling](#machine-learning-modeling)
     - [Computer vision](#computer-vision-1)
     - [NLP](#natural-language-processing-1)
 
@@ -81,6 +83,8 @@ Deep learning is a subset of machine learning methods based on neural networks w
 - [Large language models](https://)
 - [TF-IDF](/docs/ArtOfAI/npl/tf-idf.md)
 
+To lean about more about NLP [click here ➛](/docs/ArtOfAI/npl/README.md)
+
 
 ### Computer vision
 
@@ -135,3 +139,8 @@ Following are the categorised list of libraries which used in the different fiel
 ###### Computer 
 
 - [OpenCV](https://)
+
+
+###### MLOps
+
+- [ZenML](https://)
