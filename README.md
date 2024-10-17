@@ -82,13 +82,7 @@ Deep learning is a subset of machine learning methods based on neural networks w
 
 ### Natural language processing
 
-- [Introduction](/docs/ArtOfAI/npl/README.md)
-- [Stemming](/docs/ArtOfAI/npl/stemming.md)
-- [Lemmetizaton](/docs/ArtOfAI/npl/lemmatization.md)
-- [Text normalization](/docs/ArtOfAI/npl/text-normalization.md)
-- [Language models](https://)
-- [Large language models](https://)
-- [TF-IDF](/docs/ArtOfAI/npl/tf-idf.md)
+Natural is field of Artificial intelligence, which deals with the understanding, generation, recognition, etc. of human language. It has various application is computer science.
 
 To lean about more about NLP [click here ➛](/docs/ArtOfAI/npl/README.md)
 
