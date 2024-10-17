@@ -11,4 +11,7 @@ nltk: 3.9.1
     - [Searching text](https://)
     - [Counting vocabulary](counting-vocabulary.ipynb)
     - [Frequency distribution](frequency-distribution.ipynb)
+    - [Fine Grained selection of words](fine-grained-selection-of-words.ipynb)
+    - [Collaboration and bigrams](collaboration-and-bigrams.ipynb)
+    - [Counting other things](counting-other-things.ipynb)
 - Accessing Text Corpora and Lexical Resources

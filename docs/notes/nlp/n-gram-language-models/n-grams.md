@@ -1,6 +1,6 @@
 # N-grams
 
-### Computer the probability
+### Compute the probability
 
 N-gram is a simplest language models, with sequence of *n* words. Let's calcuate *P(w|h)*,  the probability of a word *w* given some history *h*. 
 
@@ -34,9 +34,27 @@ For the joint probability of each word in a sequence having a particular value <
 ----------
 
 <p>
-To computer the probabilities of entire sequences like <em>P(w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub></em>?
+To computer the probabilities of entire sequences like <em>P(w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>)</em>?
 </p>
 
 <p>
-One thing 
+One thing we can do is decompose this probablity using the <strong>chain rule of probability</strong>:
 </p>
+
+![Image not found](/assets/images/n-gram-2.png)
+
+Applying the chain rule to words to get:
+
+![Image not found](/assets/images/n-gram-3.png)
+
+The chain rules shows the link between computing the join probability of a sequence and computing the conditional probability of a  word given previous words. The later equation suggests that we could  estimate the iont probablity of an entire sequence of words by multiplying together a number of conditional probabilities.
+
+----------
+
+<div>
+    <p>
+        But using the chain rules doesn't compute the exact probability of a word given a long sequence of preceeding words, <em>P(w<sub>n</sub>|w<sub>n-1</sub>)</em>
+    </p>
+</div>
+
+<a href="README.md">N-gram language model</a> | <a href="the-markov-assumption.md">The markov assumption</a>

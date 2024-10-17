@@ -19,6 +19,7 @@ Processing natural language to extract useful information can be difficult. It r
 - [Text normalization](text-normalization.md)
 - [N-gram language models](n-gram-language-models.md)
 - [Language models](https://)
+- [Markov assumption](markov-assumption.md)
 - [Large language models](https://)
 - [TF-IDF](/docs/ArtOfAI/npl/tf-idf.md)
 - [Topic Modeling](103-topic-modeling.md)

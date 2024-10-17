@@ -8,17 +8,22 @@
 - [Prepare to models](#preparing-to-models)
 - [Machine learning](#machine-learning)
     - [Types of machine learning](#type-of-machine-learning)
-- [Neural networks](https://)
+- [Neural networks](#neural-networks)
 - [Deep learning](#deep-learning)
 - [Natural language processing](#natural-language-processing)
+    - [Large languge models](https://)
+    - [Transformers](https://)
 - [Computer vision](#computer-vision)
 - [Generative AI](#generative-ai)
 - [MLOps](#mlops)
 - [Libraries and Frameworks](#libraries-and-frameworks)
-    - [Data pre-processing libraries](#data-pre-processing-libraries)
-    - [Machine learning modeling](#machine-learning-modeling)
-    - [Computer vision](#computer-vision-1)
-    - [NLP](#natural-language-processing-1)
+    - [Data pre-processing libraries](#data-pre-processing-tools)
+    - [Machine learning modeling](#machine-learning-tools)
+    - [Neural network tools](#neural-networks-tools)
+    - [Deep learning tools](#deep-learning-tools)
+    - [NLP](#natural-language-processing-tools)
+    - [Computer vision](#computer-vision-tools)
+    - [MLOps tools](#mlops-tools)
 
 ----------
 
@@ -63,6 +68,8 @@ To learn more about machine learning [click here ➛](/docs/ArtOfAI/machine-lear
 
 A neural network is a machine learning program, or model, that makes decisions in a manner similar to the human brain, by using processes that mimic the way biological neurons work together to identify phenomena, weigh options and arrive at conclusions.
 
+To lean more about neural networks <a href="/docs/ArtOfAI/neural-networks/README.md">click here ➥</a>
+
 ### Deep learning
 
 Deep learning is a subset of machine learning methods based on neural networks with representation learning. It uses multilayered neural networks, called deep neural networks, to stimulate the complex decision-making power of the human brain.
@@ -102,9 +109,9 @@ To know more about MLOps [click here ➛](/docs/ArtOfAI/mlops/README.md)
 
 # Libraries and Frameworks
 
-Following are the categorised list of libraries which used in the different fields of Artificial intelligence. There are some many libraries and frameworks which belong to one domain but also used others, such tensorflow and pytorch is used in broad range of domains in AI. It is used in building simple ML models, neural networks, deep learning, etc. 
+Following are the categorised list of libraries which are used in the different fields of Artificial intelligence. There are some many libraries and frameworks which are used in more than one domain, such tensorflow and pytorch is used in broad range of domains in AI. It is used in building simple ML models, neural networks, deep learning models, etc. 
 
-###### Data pre-processing libraries
+###### Data pre-processing tools
 
 - [Numpy](https://)
 - [Pandas](https://)
@@ -115,7 +122,7 @@ Following are the categorised list of libraries which used in the different fiel
     - [Plotly](https://)
 
 
-###### Machine learning modeling
+###### Machine learning tools
 - [Scikit-learn](https://)
 - [LightGBM](https://lightgbm.readthedocs.io/en/latest/index.html): graident boosting framework, uses tree based learning agorithms.
 - [XGboost](https://)
@@ -124,25 +131,25 @@ Following are the categorised list of libraries which used in the different fiel
 - [Tensorflow](https://www.tensorflow.org/): Building machine learning models.
 - [Optuna](https://optuna.org/): Open source hyperparameter optimization framework to automate hyperparameter search.
 
-###### Neural networks
+###### Neural networks tools
 - [JAX](https://jax.readthedocs.io/en/latest/index.html): High performance array computing
 - [FAX](https://flax.readthedocs.io/en/latest/): Neural Networks for JAX
 
-###### Deep learning
+###### Deep learning tools
 - [Keras](https://keras.io): Deep learning frameworks
 
 
-###### Natural language processing
+###### Natural language processing tools
 
 - [NLTK (Natural language took kit)](www.nltk.org/)
 - [SpaCy](https://spacy.io/)
 
 
-###### Computer 
+###### Computer vision tools
 
 - [OpenCV](https://)
 
 
-###### MLOps
+###### MLOps tools
 
 - [ZenML](https://)
