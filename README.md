@@ -5,6 +5,10 @@
 - [Terminologies](#basics-terminologies)
 - [Data collection](#data-collection)
 - [Data pre-processing](#data-pre-processing)
+    - [EDA](/docs/ArtOfAI/eda/README.md)
+    - [Feature engineering](/docs/ArtOfAI/features-engineering/README.md)
+- [Data analytics](/docs/ArtOfAI/data-analytics/README.md)
+- [Data science](/docs/ArtOfAI/data-science/README.md)
 - [Prepare to models](#preparing-to-models)
 - [Machine learning](#machine-learning)
     - [Types of machine learning](#type-of-machine-learning)
@@ -28,13 +32,21 @@
 ----------
 
 
+
+### Basics Terminologies:
+
+In the feilds of AI, terminologies are used a alot. Similar terms are used in different fields of AI. Here, we have collected most used terminologies for understanding.
+
+
+
+- [Features](/docs/glossary/features.md)
+- [Regularization](/docs/glossary/regularization.md)
+
+
+
 ### Data collection
 
 In this step data is collected from various sources, from companies, by extracting web pages, from internet (download datasets), etc.
-
-
-### Basics Terminologies:
-- [Features](/docs/glossary/features.md)
 
 
 ### Data pre-processing
