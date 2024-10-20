@@ -71,3 +71,7 @@ In the introduction, we talk about the steps involed in the basic learning proce
 - [Cost function](cost-function.md)
 - [Loss function](loss-function.md)
 - [Objective function](objective-function.md)
+
+----------
+
+[⏮️ <<< Data science](/docs//ArtOfAI/data-science/README.md) | [⏸️ ArtOfAI](/README.md) | [Supvised machine learning ⏭️](/docs/ArtOfAI/supervised-learning/README.md)

@@ -15,5 +15,6 @@ xlrd==2.0.1
 notebook==7.0.8
 py-openaq==1.1.0
 catboost==1.2.5
-tensorflow==2.17.0
 nltk==3.9.1
+ipython==8.28.0
+ipykernel==6.29.5

@@ -10,24 +10,49 @@
 
 ### What is Supervised learning
 
-Supervised leraning, also known as supervised machine liearning, is a subcategory of machine learning and artificial intelligence. It is defined by its use of labeled data sets to train algorithms that to classify data or predict outcomes accurately.
+Supervised leraning, also known as supervised machine liearning, is a subcategory of machine learning and artificial intelligence. It is defined by its use of labeled data sets to train algorithms that to classify data or predict outcomes accurately. 
 
-As input data is fed into the model, it adjusts it weights until the model has been fitted appropriately, which occurs as part of the cross validation process. 
+----------
+
+##### Note
+
+**In supervised learning, the labelled training data provide the basis for learning**.
+
+----------
+
+The labelled trainig data is the experience or prior knowledge or belief. It is called supervised learning because the process of learning from the training data by a mchine can be related to a teacher supervising the learning process of a student who is new to the subject. Here, the teacher is the training data.
+
 
 Supervised learning helps organization solve for a variety of real-world problems at scale, such as classifying spam in a seprate folder from your inbox. It can be used to build highly accurate machine learning models.
 
 ### How supervised learning works
 
-Supervised learning uses a training set to teach models to yield the disired output. This training dataset include inputs and correct ouputs, which allow the model to learn over time. The algorithm measures it accuracy through [loss function](https://) adjusting until the error has been sufficiently minimized.
+Training data is the part information with known value of class field or "label". Hence, we can say that the '**training data is labelled**'.
 
-Supervised leraning can be separated into two types of problems when [data mining](https://) -- classification and regression:
+Supervised learning uses a training set to teach models to yield the disired output. This training dataset include inputs and correct ouputs, which allow the model to learn over time. As input data is fed into the model, it adjusts it weights until the model has been fitted appropriately, which occurs as part of the cross validation process. The algorithm measures it accuracy through loss function adjusting until the error has been sufficiently minimized.
+
+Some examples of supervised learning are as follows:
+
+- Prediction of results of game based on the past analysis of results.
+- Predicting whether a tumour is malignant or benign on the basis of the analysis of data.
+- Price prediction in domains such as real estate, stocks, etc.
+
+**Supervised learning is as good as the data used to train it**. It the training data is poor in quality, the prediction will also be far from being precise.
+
+### Classification in supervised learning
+
+Let us consider two examples, say "predicting whether a tumour is malignant or benign" and "price prediction in the domain of real estate". Are those two problems same in nature?
+
+The answer is no. It is true that both of them are problems related to prediction. However, for tumour prediction, we are trying to predict which category or class, i.e. "malignant" or "benign", an unknown input data related to tumour belongs to. In the other case, that is, for price prediction, we are trying to predict an absolute value and not a class.
+
+When we are trying to predict a categorical or nominal variable, the problem is known as **classification problem**. And when we trying to predict a numerical variable, the problem is called **regression problem**. Therefore, Supervised leraning can be separated into two types of problems when [data mining](https://) -- classification and regression:
 
 1. [Classification](#classification)
 2. [Regression](#regression)
 
 ##### Classification
 
-Uses an algirhtm to accurately assign test data into specific categories. It recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled or defined.
+Uses an algrithm to accurately assign test data into specific categories. It recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled or defined.
 
 Common classification algorithms:
 
@@ -50,14 +75,41 @@ Common regression algorithms:
 
 In supervised learning, you create a function (or model) by using labeled training data that consists of input data and a wanted output. The supervision comes in a form of the wanted output, which in turn lets you adjust the function based on the acutal output it produces. When trained, you can apply this function to new observations to produce an output (predictions or classfication) that ideally responds correctly.
 
+----------
+
 A typical supervised learning algorithm
 
-[Typical supervised learning ](/assets/images/supervised-learning-1.png)
+![Typical supervised learning ](/assets/images/supervised-learning-1.png)
+
+----------
+
+
+### Supervised learning examples
+
+Supervised learning models can be used to build and advance a number of business applications, including the following:
+
+- **Image and object recogintion**: Supvervised learing algorithms can be used to located, isolate and categorize objects out of videos or images, making them useful when applied to various computer vision techniques and imagery analysis.
+
+- **Prediction analysis**: A widespread use case for supervised learinig models is in creating predictive analytics systems to provide deep insights into various business data points. This allows enterprises to anticipate certain results based on a given output variable, helping business leaders justify decisions or pivot for the benefit of the organization.
+
+- **Customer sentiment analysis**: Using supervised machine learing algorithms, organizations can extract and classify important pieces of information from large volumes of data--including context, emotion, and intent--with very little human intervention. This can be incredibly useful when gaining a better understanding of customer interactions and can be used to improve brand engagement efforts.
+
+- **Spam detection**: Spam detection is another example of a supervised learning model. Using supervised classification algorithms, organizations can train databases to recognize patterns or anomalies in new data to organize spam and non-sopam-related correspondences effectively.
+
+
+
+### Challenges of supervised learning
+
+- Supervised learing models can require certain levels of expertise to structure accurately.
+- Training supervised learning models can be very time intensive.
+- Datasets can have a higher likelihood of human error, resulting in algorithms learning incorrectly.
+- Unlike unsupervised learning models, supervised learning cannot cluster or classify data on its own.
 
 
 ### Supervised learning algorithms
 
 Commonly used supervised learing algorithms:
+
 
 ##### Neural Networks
 
@@ -107,26 +159,6 @@ K-nearest neighbor, also known as the KNN algorithm, is a non-parametric algorit
 Random forest is another flexible supervised machine learning algorithm used for both classification and regression purposes. The "forest" refrences a collection of uncorrelated decision trees, which are then merged together to reduce [variance](https://) and create more accurate data predictions.
 
 
-### Supervised learning examples
-
-Supervised learning models can be used to build and advance a number of business applications, including the following:
-
-- **Image and object recogintion**: Supvervised learing algorithms can be used to located, isolate and categorize objects out of videos or images, making them useful when applied to various computer vision techniques and imagery analysis.
-
-- **Prediction analysis**: A widespread use case for supervised learinig models is in creating predictive analytics systems to provide deep insights into various business data points. This allows enterprises to anticipate certain results based on a given output variable, helping business leaders justify decisions or pivot for the benefit of the organization.
-
-- **Customer sentiment analysis**: Using supervised machine learing algorithms, organizations can extract and classify important pieces of information from large volumes of data--including context, emotion, and intent--with very little human intervention. This can be incredibly useful when gaining a better understanding of customer interactions and can be used to improve brand engagement efforts.
-
-- **Spam detection**: Spam detection is another example of a supervised learning model. Using supervised classification algorithms, organizations can train databases to recognize patterns or anomalies in new data to organize spam and non-sopam-related correspondences effectively.
-
-
-### Challenges of supervised learning
-
-- Supervised learing models can require certain levels of expertise to structure accurately.
-- Training supervised learning models can be very time intensive.
-- Datasets can have a higher likelihood of human error, resulting in algorithms learning incorrectly.
-- Unlike unsupervised learning models, supervised learning cannot cluster or classify data on its own.
-
 
 ### Algorithms in supervised learning
 
@@ -140,8 +172,17 @@ Regression algorithm are also known are prediction algorithms because the are us
 - [Linear regression](linear-regression.md)
 - [Ridge regression](ridge-regression.md)
 
-##### Classifiction algorithms
 
-Classification algorithms are used for classification an object in category. If we have collections of movie, and we want to classify each movie according to it description. We can use classification model for this case.
+----------
 
-- [Logistic regression](logistic-regression.md)
+### Used terms:
+
+- [Weight](https://)
+- [Cross validation](https://)
+- [Model fitting](https://)
+- [Loss function](https://)
+
+----------
+
+
+[⏮️ Machine learning](/docs/ArtOfAI/machine-learning/README.md) | [⏸️ Machine learning](https://) | [Classification ⏭️](classification.md)

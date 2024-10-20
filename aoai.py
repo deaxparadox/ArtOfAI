@@ -6,7 +6,6 @@ from pathlib import Path
 from typing import Self
 
 
-
 BASE_DIR = Path(__file__).parent
 
 DATASET_DIR = os.path.join(BASE_DIR, "dataset")
