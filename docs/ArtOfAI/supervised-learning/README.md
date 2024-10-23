@@ -185,4 +185,4 @@ Regression algorithm are also known are prediction algorithms because the are us
 ----------
 
 
-[⏮️ Machine learning](/docs/ArtOfAI/machine-learning/README.md) | [⏸️ Machine learning](https://) | [Classification ⏭️](classification.md)
+[⏮️ Machine learning](/docs/ArtOfAI/machine-learning/README.md) | [⏸️ Machine learning](https://) | [Classification ⏭️](classification/README.md)
