@@ -17,7 +17,7 @@ Processing natural language to extract useful information can be difficult. It r
 - [Stemming](stemming.md)
 - [Lemmetizaton](lemmatization.md)
 - [Text normalization](text-normalization.md)
-- [N-gram language models](n-gram-language-models.md)
+- [N-gram language models](n-gram-language-models/README.md)
 - [Language models](https://)
 - [Markov assumption](markov-assumption.md)
 - [Large language models](https://)

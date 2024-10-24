@@ -42,3 +42,5 @@ For the general case of MLE n-gram parameter estimation:
 The above equation estimates the n-gram probabilty by dividing the observed frequency of a particular sequences by the observed frequency of a prefix. This ration is called **relative frequency**.
 
 In MLE, the resulting parameter set maximizes the likehood of the training set *T* given the model *M*(i.e., *P(T|M)*). For example, supposethe word *Chinese* occurs 400 times in a corpus of a million words. What is the probability that a random word selected from some tother text of, say a million words will be the word *Chinese*? The MLE os its probability is 400/1000000 or 0.0004. Now 0.0004 is not the best possible estimate of the probablity of *Chinese* occuring in all situations; it might turns out that in some other corpus or context *Chinese* is a very likely word. But it is the probability that makes it *most like* that Chinese will occur 400 times in a million-word corpus.
+
+[⏮️ The markov assumption](the-markov-assumption.md) | [⏸️ N-gram models](README.md) | <link rel="stylesheet" href="">
