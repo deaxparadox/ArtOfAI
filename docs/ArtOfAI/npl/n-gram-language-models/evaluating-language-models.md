@@ -26,3 +26,5 @@ The training set the data we use to lean the parameters of our model: for simple
 The test set is a different, hold out set of data, not overlapping the training set, that we use to evaluate the model. 
 
 A machine learning models that perfectly captured the training data, but performed terribly on the  any other data, wouldn't be much use when it comes time to apply it to any new data or problem!
+
+##### Development test

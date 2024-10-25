@@ -40,6 +40,10 @@ The word 'n-gram' is also used to mean a probabilistic model that can estimate t
 - [The markove assumption](the-markov-assumption.md)
 - [Howto estimate probabilities?](how-to-estimate-probabilities.md)
 - [Dealing with scale in large n-gram models](dealing-with-scale-in-large-n-gram-models.md)
-- [Evaluating language models](evaluating-language-models.md)
+- [Evaluating language models: Training and test sets](evaluating-language-models.md)
+- [Evaluating language models: Perplexity](evaluating-language-models-perplexity.md)
+- [Perplexity as Weighted Average Branching Factor](perplexity-as-weighted-average-branching-factor.md)
+- [Sampling sentences from a language model](sampling-sentences-from-language-model.md)
+- [Generalizing vs. overfitting t he training set](generalizing-vs-overfitting-the-training-set.md)
 
 [<<< nlp](../README.md) | [n-gram >>>](n-grams.md)
