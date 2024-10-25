@@ -44,3 +44,43 @@ While building a supervised learning model, a part of the labelled input data is
 
 
 In context of the Student data set, to keep the things simple, we assume one data element of the input data set as the test data, the record of the student named Josh is assumed to be the test data. Now that we have the training data nd test data identified, we can start with the modelling.
+
+In the *k*NN, algorithm the class label of the test data elements is decided byt he class label of the training data elements which are neighbouring, i.e. similar in nature. But there are two challenges:
+
+1. What is the basis of the similarity or when can we say that two data elements are similar?
+2. How many similar elements should be considered for deciding the class label of each test data element?
+
+### Different measure of similarity
+
+There are mnay measures of similarity, the most common approach adapted by *k*NN to measure similarity between two elements are **Euclidean** distance. Considering a very simple data set having two features (say $f_1$ and $f_2$), Euclidean distance between two data elements $d_1$ and $d_2$ can be measured by
+
+$$Euclidean{\;}distance = \sqrt{{\left(f_{11} - f_{12}\right)}^2 + {\left(f_{21} - f_{22}\right)}^2}$$
+
+where $f_{11} =$ value of features $f_1$ for data element $d_1$.
+where $f_{12} =$ value of features $f_1$ for data element $d_2$.
+where $f_{21} =$ value of features $f_2$ for data element $d_1$.
+where $f_{22} =$ value of features $f_2$ for data element $d_2$.
+
+We have splitted the data into *train* set and *test* set.
+
+
+- Training set 
+
+| Name | Aptitude | Communication | Class |
+|------|-----|------|------|
+| Karuna | 2 | 5 | Speaker |
+| `content skipped` | `content skipped` | `content skipped` | `content skipped` |
+| Pradeep | 9 | 7 | Leader |
+
+
+- Test set
+
+| | | | |
+|------|-----|------|------|
+| Josh | 5 | 4.5 | Intel |
+
+The training data points of the Student data set considering only the features "Aptitude" and "Communication" can be represented as dots in a two-dimensional feature space. The reason 
+
+### Code
+
+- [KNN code](/code/ipynb/simple-knn.ipynb)
