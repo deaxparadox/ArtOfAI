@@ -73,8 +73,7 @@ Machine learing is the branch of AI in which models is trained of the given, tha
 - [Reinforcement learning](https://)
 
 To learn more about machine learning [click here ➛](/docs/ArtOfAI/machine-learning/README.md)
-
-
+Types of Language models [click here ➛](/docs/ArtOfAI/machine-learning/types-of-models.md)
 
 ### Neural Networks
 

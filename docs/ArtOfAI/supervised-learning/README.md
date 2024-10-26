@@ -50,7 +50,7 @@ When we are trying to predict a categorical or nominal variable, the problem is 
 1. [Classification](#classification)
 2. [Regression](#regression)
 
-##### Classification
+##### Classification [🔗](classification/README.md)
 
 Uses an algrithm to accurately assign test data into specific categories. It recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled or defined.
 
@@ -59,7 +59,7 @@ Common classification algorithms:
 - [Linear classifiers](https://)
 - [Support vector machines](https://) (SVM)
 - [Decision trees](https://)
-- [K-nearest neighbor](https://)
+- [K-nearest neighbor](classification/k-nearest-neighbor.md)
 - [Random forest](https://)
 
 ##### Regression
