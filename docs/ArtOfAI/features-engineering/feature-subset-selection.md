@@ -1,5 +1,7 @@
 # Feature subset selection
 
+`The main object of feature selection is to remove all features which are irrelevant and take a representative subset of the features which are potentially redundant. This leads to a meaningful feature subset in context of a specific learning task.`
+
 
 Also called **Feature selection**, is this case no new feature is generated. The object of feature selection is to derive a subset of features from the full feature set which is most meaningful in the context of a specific machine learning problem. So, essentially the job of feature selection is to derive a subset *F<sub>j</sub>(F<sub>1</sub>, F<sub>2</sub>, ..., F<sub>m</sub>) of F<sub>i</sub>(F<sub>1</sub>, F<sub>2</sub>, ..., F<sub>n</sub>)*, where  *m* < *n*, such that F<sub>j</sub> is more meaningful and gets the best result for a machine learning problem.
 
@@ -46,15 +48,22 @@ The objective of feature selection is three-fold:
 
 ### Key drivers of feature selection -- feature relevance and redundancy
 
+1. [Feature relevance](#feature-relevance)
+2. [Feature redundancy](#feature-redundancy)
+
 ##### Feature relevance
+
+`Feature relevance is defined as the selecting the most usefull (contributing) features for the training data (or gauged by the amount of information contirbuted by a feature).` 
 
 In supervised learning, the input data set which is the training data set, has a class label attached. A models is inducted based on the training data set -- so that the inducted model can assign class labels to new, unlabelled data. Each of the predictor variables, is expected to contribute information to decide the value of the class label. In case a variable is not contributing any information, it said to be irrelevant. In case the information contribution for prediction is very little, the variable is said to be weakly relevant. Remaining variables, which make a signigicant contribution to the prediciton task are said to be strongly relevant variables.
 
-In unsupervised learning, there is no training data set or labelled data. Grouping of similar data instances are done and similarity of data instances are evaluated based on the value of different variables. Certain variables do not contribute any usefull information for deiding the similarity of dissimilarity of data instances. Hence, those variables make not significant information contribution in the grouping process. These variables are marked as irrelevant variables in the context of the unsupervised machine learning task.
+In unsupervised learning, there is no training data set or labelled data. Grouping of similar data instances are done and similarity of data instances are evaluated based on the value of different variables. Certain variables do not contribute any usefull information for deiding the similarity or dissimilarity of data instances. Hence, those variables make not significant information contribution in the grouping process. These variables are marked as irrelevant variables in the context of the unsupervised machine learning task.
 
-Any feature which is irrelevant in the context of a machine learning task is a condidate for rejection when we are selecting a subset of features.
+Any feature which is irrelevant in the context of a machine learning task is a candidate for rejection when we are selecting a subset of features.
 
 ##### Feature redundancy
+
+`Feature redundancy is defined as the features which contributes same information and will not affect the learning model if removed.`
 
 A feature may contribute information which is similar to the information contributed by one or more other features.
 
@@ -62,9 +71,13 @@ For example, above we took an example of "Age", "Height", and "Weight". Both the
 
 All features having potential redundancy are candidates for rejection in the final features subset. Only a small number of represetative features out of a set of potentially redundant features are condiered for being a part of the final feature subset.
 
-So, **the main object of feature selection** is to remove all features which are irrelevant and take a representative subset of the features which are potentially redundant. This leads to a meaningful feature subset in context of a specific learning task.
+
 
 
 ### Measures of features relevance and redundancy.
 
 ##### Measures of feature relevance.
+
+[Read of feature relevance >>>](#feature-relevance)
+
+For supervised learning, mutual information is considered as a good measure of information contribution of a feature to decide the value of the class label. That's why is is a good indicator of the relevance of a feature with respect to the class variable. 

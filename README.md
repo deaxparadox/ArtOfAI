@@ -20,6 +20,7 @@
 - [Computer vision](#computer-vision)
 - [Generative AI](#generative-ai)
 - [MLOps](#mlops)
+- [AI models](#ai-models)
 - [Libraries and Frameworks](#libraries-and-frameworks)
     - [Data pre-processing libraries](#data-pre-processing-tools)
     - [Machine learning modeling](#machine-learning-tools)
@@ -111,6 +112,10 @@ Generative AI, sometimes called gen AI, is artificial intelligence (AI) that can
 MLOps is emerging branch which combined the ML, AI and DevOps, simplyfing the models development and deployment process.
 
 To know more about MLOps [click here ➛](/docs/ArtOfAI/mlops/README.md)
+
+### AI Models
+
+- [DELL-E 2](https://): dvanced AI model developed by OpenAI that generates images from text descriptions (prompts).
 
 # Libraries and Frameworks
 
