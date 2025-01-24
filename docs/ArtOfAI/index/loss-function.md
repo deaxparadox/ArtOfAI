@@ -12,11 +12,26 @@ Guides the optimization algorithm (like Gradients Descent) to minimize errors.
 
 Loss functions vary based on the type of machine learning problem:
 
-1. Regression Loss Functions (Used for continous outputs, e.g., price prediction)
+#### 1. Regression Loss Functions (Used for continous outputs, e.g., price prediction)
 
 **Mean Squared Error (MSE)**
+
+$$\text{MSE} = \frac{1}{n}\sum\left({y}_{true} - \text{y}_{pred}\right)^2$$
+
+- Penalizes larger errors more than smaller ones.
+- Common in linear regression and dep learning models.
+
+**Mean Absolute Error (MAE)**
 
 $$\text{MSE} = \frac{1}{n}\sum\vert\text{y}_{true} - \text{y}_{pred}\vert$$
 
 - Gives equal weight to all erros.
 - Less sensitive to outliers than MSE.
+
+**Huber Loss (Combination of MSE and MAE)**
+
+- Used when data has outliers to balance robustness and performance.
+
+#### 2. Classification Loss Functions (Used for categorical outputs, e.g., spam detection)
+
+**Binary Cross-Entropy (Log Loss) - For Binary Classification**

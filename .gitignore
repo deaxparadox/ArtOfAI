@@ -167,3 +167,4 @@ dataset/
 backend/
 
 code/torch/data
+*.pth
