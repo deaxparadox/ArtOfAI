@@ -42,9 +42,6 @@ class _Base:
 
 
 class Find:
-    # def __init__(self, obj: Base|None = None):
-    #     self.__base = obj
-        
     def __getitem__(self, name: str | list[str] | None = None) -> None:
         if not name:
             raise KeyError("find attribute name cannot be empty.")
