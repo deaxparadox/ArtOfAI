@@ -45,3 +45,57 @@ The manufacturing industry uses ML models to identify visual defects in products
 ##### Retail
 
 Retail environment s use model to identify products and assign them to category based on visual factors. Data augmentation can product synthetic data variations of product images, creating a training set that has more variance in terms of lighting conditions, image backgrounds, and product angles.
+
+### How does data augmentation work?
+
+Data augmentation transforms, edits, or modifies existing data to create variations. The following is a belief overview of the process.
+
+##### Dataset exploration
+
+The first stage of data augmentation is to analyze an existing dataset and understand its characteristics. Features like the size of input images, the distribution of the data, or the text structure all give further context for augmentation.
+
+You can select different data augmentation techniques based on the underlyig data type and the desired results. For exampe, augmenting a dataset with many images includes adding noise to them, scaling, or cropping them. Alternatively, augmenting test dataset for natural language processing.
+
+##### Augmentation of existing data
+
+After you've selected the data augmentation technique that work best for your desired goal, you begin applying different transformations. Data points or image samples in the dataset transform by using your selected agumentation method, providing a range of new augmented samples.
+
+During the augmentation process, you maintina the same labeling rules for data consistency, ensuring that the synthetic data includes the same labels corresponding to the source data.
+
+
+Typically, you look through the synthetic images to determine whether the transformation succeeded. This additional human-led step helps maintain higher data quality.
+
+##### Integrate data forms
+
+Next, you combine the new, augmented data with the original data to produce ta larger training dataset for the ML model. When you're training the model, you use his composist dataset of both kinds of data.
+
+The new data points that are created by synthetic data augmentation carry the same [bais](bais.md) as the original input data. To prevent baises from transferring into your new data, address any bias in the source data before starting the data augmentation process.
+
+
+### What are some data augmentation techniques?
+
+Data augmentation tehcniques vary across different data types and distinct business contexts.
+
+##### Computer vision
+
+Data augmentation is a central technique in computer vision tasks. It help create diverse data representation and tackle class imbalances in a training dataset.
+
+The first usage of augmentation in computer vision is through position augmentation. This strategy crops, flips, or rotates an input image to create augmented images. Croping either resizes the images or crops a small part of the original image to create a new one. Rotation, flip, and resizing transformation all alter the original randomly with a given probability of providing new images.
+
+Another usage of augmentation in computer vision is in color augmentation. This strategy adjusts the elementary factors of a training image, such as it's brightlness, contract degree, or saturation. These common image transformation change the hue, dark, and light balence, and separation between an image's darkset and lightest areas to create augmented images.
+
+##### Audio data augmentation
+
+Audio files, such as speech recordings, are also a common field where you can use data augmentation. Audio transformations typically include injected random or Gaussian noise into some audio, fast-forwarding parts, changing the speed of the parts by a fixed rate, or altering the pitch.
+
+##### Text data augmentation
+
+Text augmentation is a vital data augmentation technique for NLP and other text-related sectors of ML. Transformations of text data include shuffling sentences, changing the positions of words, repalcing words with close synonyms, inserting random words, and deleting random words.
+
+##### Neural style transfer
+
+Neural style transger is an advanced form of data augmentation that deconstructs images into smaller parts. It uses a series of convolutional layers that separate the style and context of an image, producing many images from a single one.
+
+##### Adversarial training
+
+Changes on the pixel level create a challenge for an ML model. Some samples include a layer of impreceptible noise over an image to test the model's ability to preceive the image underneath. This strateg is a preventive form of data augmentation focuing on potential unauthorized access in-the real world.
