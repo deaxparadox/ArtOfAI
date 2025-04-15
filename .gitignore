@@ -168,3 +168,5 @@ backend/
 
 code/torch/data
 *.pth
+
+code/tensorflowl/computer-vision/datasets
