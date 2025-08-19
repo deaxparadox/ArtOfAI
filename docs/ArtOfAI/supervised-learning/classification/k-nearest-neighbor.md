@@ -167,9 +167,9 @@ However, the *k*NN algorithm these steps are completely skipped. It stores the t
 
 ### Application of *k*NN algorithm
 
-One of the most popular areas in machine learning where the *k*NN algorithm is widely adapted is recommender systems. Recommender system recommend users different items which are similar to a particular item that the user seems to like. The liking pattern may be revealed from past purchases or browsing history and the similar items are identified using the *k*NN algorithm.
+One of the most popular areas in machine learning where the *k*NN algorithm is widely adapted is **recommender systems**. Recommender system recommend users different items which are similar to a particular item that the user seems to like. The liking pattern may be revealed from past purchases or browsing history and the similar items are identified using the *k*NN algorithm.
 
-Another area where there is widespread adoption of kNN is searching documents/ contents similar to a given document/content. This is a core area under information retrieval and is known as concept search.
+Another area where there is widespread adoption of kNN is **searching documents** contents similar to a given document/content. This is a core area under information retrieval and is known as **concept search**.
 
 ### Code
 

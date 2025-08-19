@@ -1,0 +1,3 @@
+# Edge detection
+
+**Edge detection** includes a variety of mathematical methods that aims at identifying **edges**, defined as curves in a digital image at which the image brightness changes sharply, or more formally has discontinuties. The sampe problem of the finding discontinuties in one-dimensional signals is known as *step detection* and problem of finding the signal discotinuries over time is known as *change detection*. Edge detection is a fundamentals tools in [image processing](https://), [machine learning](https://) and [computer vision](https://), particularly is the ares of [feature detection](https://) and [feature extraction](https://)

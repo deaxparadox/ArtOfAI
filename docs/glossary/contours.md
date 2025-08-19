@@ -1,0 +1,3 @@
+# Contour line
+
+A contour line (also isoline, isopleth, isoquant or isarithm) of function of two variables is a curve along which the function has a constant value, so the curve join points of equal value. It is a plane-section of the three-dimensional graph of the function $f(x, y)$ parallel to the $(x, y)$-plane. More formally, a contour line for a function to two variables is a curve connecting points where the function has the same particular value.

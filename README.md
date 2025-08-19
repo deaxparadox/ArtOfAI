@@ -103,6 +103,8 @@ To lean about more about NLP [click here ➛](/docs/ArtOfAI/npl/README.md)
 
 Computer vision is a field of artificial intelligence (AI) that uses machine learning and neural networks to teach computers and systems to derive meaningful information from digital images, videos and other visual inputs—and to make recommendations or take actions when they see defects or issues.
 
+- [Image segmentation using Tensorflow Documentation](docs/ArtOfAI/computer-vision/image-segmentation/README.md)
+
 ### Generative AI
 
 Generative AI, sometimes called gen AI, is artificial intelligence (AI) that can create original content—such as text, images, video, audio or software code—in response to a user’s prompt or request.
